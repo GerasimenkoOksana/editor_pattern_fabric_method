@@ -1,8 +1,10 @@
 #include"Editor.h"
-
+#include<Windows.h>
 int main()
 {
 	setlocale(0, "");
+	SetConsoleOutputCP(1251);
+	SetConsoleCP(1251);
 	Creator* creator;
 	Editor* editor;
 	int type;
